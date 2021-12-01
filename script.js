@@ -8,10 +8,10 @@ const ball = document.querySelector('#ball');
 
 function moveBall() {
   const Xmin = 0;
-  const Xmax = 400;
+  const Xmax = 500;
 
   const Ymin = 0;
-  const Ymax = 400;
+  const Ymax = 500;
   
   ball.style.left = positionX + 'px';
   ball.style.top = positionY + 'px';
